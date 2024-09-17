@@ -1,0 +1,94 @@
+/* G3 Architects */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", "Helvetica Neue", sans-serif;
+}
+/* header */
+
+header {
+  background: rgba(255, 144, 14, 0.1);
+  padding: 50px 240px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 26px;
+
+  text-align: center;
+
+  color: #424242;
+}
+
+/* G3 Architects */
+
+nav h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 53px;
+  color: #131313;
+}
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+.banner h1 {
+  /* Brand New Group of Architects */
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #131313;
+  margin-bottom: 26px;
+  width: 862px;
+}
+.banner p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
+  margin-bottom: 33px;
+  width: 862px;
+}
+.btn button {
+  width: 180px;
+  height: 64px;
+  background: #ff900e;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  margin-bottom: 114px;
+}
+.banner img {
+  width: 1440px;
+  height: 700px;
+}
